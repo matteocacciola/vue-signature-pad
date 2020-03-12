@@ -1,25 +1,39 @@
 {
   "dist/vue-signature-pad.common.js": {
-    "bundled": 3790,
-    "minified": 3764,
-    "gzipped": 1428
+    "bundled": 14040,
+    "minified": 13912,
+    "gzipped": 4486
   },
   "dist/vue-signature-pad.js": {
-    "bundled": 3714,
-    "minified": 3697,
-    "gzipped": 1437
+    "bundled": 13773,
+    "minified": 13647,
+    "gzipped": 4445
   },
   "dist/vue-signature-pad.esm.js": {
-    "bundled": 3660,
-    "minified": 3637,
-    "gzipped": 1383,
+    "bundled": 13925,
+    "minified": 13800,
+    "gzipped": 4445,
     "treeshaked": {
       "rollup": {
-        "code": 3330,
-        "import_statements": 57
+        "code": 13380,
+        "import_statements": 28
       },
       "webpack": {
-        "code": 4361
+        "code": 14233
+      }
+    }
+  },
+  "dist/vue-signature-pad.min.js": {
+    "bundled": 13716,
+    "minified": 13677,
+    "gzipped": 4345,
+    "treeshaked": {
+      "rollup": {
+        "code": 13245,
+        "import_statements": 28
+      },
+      "webpack": {
+        "code": 14237
       }
     }
   }

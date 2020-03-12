@@ -1,18 +1,29 @@
 {
-  "presets": [["@babel/preset-env", { "modules": false }]],
-  "env": {
-    "test": {
-      "plugins": ["@babel/plugin-proposal-object-rest-spread"],
-      "presets": [
+    "presets": [
+        "@babel/preset-es2015",
         [
-          "@babel/preset-env",
-          {
-            "targets": {
-              "node": "current"
+            "@babel/preset-env",
+            {
+                "modules": false
             }
-          }
         ]
-      ]
+    ],
+    "plugins": [
+        "babel-plugin-transform-es2015-classes"
+    ]
+    "env": {
+        "test": {
+            "plugins": ["@babel/plugin-proposal-object-rest-spread"],
+            "presets": [
+                [
+                    "@babel/preset-env",
+                    {
+                        "targets": {
+                            "node": "current"
+                        }
+                    }
+                ]
+            ]
+        }
     }
-  }
 }

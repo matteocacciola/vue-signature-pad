@@ -1,4 +1,4 @@
-import SignaturePad from 'signature_pad';
+import * as SignaturePad from 'signature_pad/dist/signature_pad.min.js';
 import mergeImages from 'merge-images';
 import {
   DEFAULT_OPTIONS,
